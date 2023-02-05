@@ -4,7 +4,7 @@
   "description": "real-sns",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
   "dependencies": {
     "express": "^4.18.2",
     "helmet": "^6.0.1",
-    "mongoose": "^6.9.0",
-    "nodemon": "^2.0.20"
+    "mongoose": "^6.9.0"
   }
 }
