@@ -1,0 +1,25 @@
+{
+  "name": "real-sns",
+  "version": "1.0.0",
+  "description": "real-sns",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kohta9521/Gakushuin_University_SNS.git"
+  },
+  "author": "kohta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kohta9521/Gakushuin_University_SNS/issues"
+  },
+  "homepage": "https://github.com/kohta9521/Gakushuin_University_SNS#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
+  }
+}
