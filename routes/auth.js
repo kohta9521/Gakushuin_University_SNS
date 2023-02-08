@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const User = require("../models/User.js");
+const User = require("../models/User");
 
 // ユーザー登録
 router.post("/register", async (req, res) => {
@@ -17,8 +17,8 @@ router.post("/register", async (req, res) => {
   }
 });
 
-// router.get("/", (req, res) => {
-//   res.send("auth router");
-// });
+router.get("/", (req, res) => {
+  res.send("auth router");
+});
 
 module.exports = router;
