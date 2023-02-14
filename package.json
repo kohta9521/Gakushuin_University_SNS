@@ -4,7 +4,7 @@
   "description": "real-sns",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/kohta9521/Gakushuin_University_SNS#readme",
   "dependencies": {
-    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "helmet": "^6.0.1",
-    "mongoose": "^6.9.0"
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
   }
 }
